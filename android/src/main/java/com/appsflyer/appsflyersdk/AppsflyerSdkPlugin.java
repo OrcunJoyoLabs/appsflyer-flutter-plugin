@@ -1144,10 +1144,10 @@ public class AppsflyerSdkPlugin implements MethodCallHandler, FlutterPlugin, Act
 
         boolean isDebug = (boolean) call.argument(AppsFlyerConstants.AF_IS_DEBUG);
         if (isDebug) {
-            PluginLogger.d("initSdk: Debug mode enabled");
             PluginLogger.setDebugLoggingEnabled(true); // Enable plugin logging when SDK debug is on
+            PluginLogger.d("initSdk: Debug mode enabled");
+             instance.setLogLevel(AFLogger.LogLevel.DEBUG);
             instance.setDebugLog(true);
-            instance.setLogLevel(AFLogger.LogLevel.VERBOSE);
         } else {
             instance.setDebugLog(false);
         }
