@@ -1,5 +1,10 @@
 # Versions
 
+## 6.17.9
+
+- Updated iOS SDK from 6.17.8 to 6.17.9
+- Updated iOS Purchase Connector from 6.17.8 to 6.17.9
+
 ## 6.17.8
 
 - Updated Android SDK from 6.17.4 to 6.17.5
