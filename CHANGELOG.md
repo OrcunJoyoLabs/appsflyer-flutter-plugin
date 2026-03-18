@@ -1,6 +1,6 @@
 # Versions
 
-## 6.17.9
+## 6.17.8+1
 
 - Updated iOS SDK from 6.17.8 to 6.17.9
 - Updated iOS Purchase Connector from 6.17.8 to 6.17.9
